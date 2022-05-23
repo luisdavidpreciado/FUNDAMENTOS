@@ -4,8 +4,8 @@
 //==> Nombre del programa: Contador de monedas
 //==> Archivo : CuentaMoneda.cpp
 //==>Autor: Luis Montezuma
-//==>Fecha de elaboraci髇: 2022-01-10
-//==>Fecha 趌tima actualizaci髇: 2022-05- 15
+//==>Fecha de elaboraci贸n: 2022-01-10
+//==>Fecha 脷ltima actualizaci贸n: 2022-05- 15
 
 
 //=================================================
@@ -13,41 +13,41 @@
 using namespace std;
 int main()
 {
-	int n, c=0, c1=0, c2=0, cl, cz;
-	float x, al, a=0, a1=0, a2=0, az;
+	int lm_n, lm_c=0, lm_c1=0, lm_c2=0, lm_cl, lm_cz;
+	float lm_x, lm_al, lm_a=0, lm_a1=0, lm_a2=0, lm_az;
 	cout<<"\n\tCuenta Moneda\n\n"<<endl;
-	cout<<"Cantidad de monedas a ingresar: ";  cin>>n;
+	cout<<"Cantidad de monedas a ingresar: ";  cin>>lm_n;
 	do
 	{
 	
-		cout<<"Ingrese el valor de la moneda (0.10 - 0.25): ";  cin>>x;
-		c = c+1;
-		a = a+x;
-		if(x==0.25)
+		cout<<"Ingrese el valor de la moneda (0.10 - 0.25): ";  cin>>lm_x;
+		lm_c = lm_c+1;
+		lm_a = lm_a+lm_x;
+		if(lm_x==0.25)
 		{
-			c1 = c1+1;
-			a1 = x+a1;
+			lm_c1 = lm_c1+1;
+			lm_a1 = lm_x+lm_a1;
 		}
 		else
 			{
-				c2 = c2+1;
-				a2 = a2+x;
+				lm_c2 = lm_c2+1;
+				lm_a2 = lm_a2+lm_x;
 			}
    }
-	while(c<n);
+	while(lm_c<lm_n);
 	cout<<"\n\tResultado\n\n"<<endl;
-	cout<<"Cantidad de monedas ingresadas: "<<c<<endl;
-	cout<<"Cantidad total de dinero contado: "<<a<<endl;
-	cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<c2<<endl;
-	cout<<"Cantidad total en dinero de las monedas de $0.10: "<<a2<<endl;
-	cout<<"Cantidad total de monedas de $0.25 ingresadas: "<<c1<<endl;
-	cout<<"Cantidad total en dinero de las monedas de $0.25: "<<a1<<endl;
+	cout<<"Cantidad de monedas ingresadas: "<<lm_c<<endl;
+	cout<<"Cantidad total de dinero contado: "<<lm_a<<endl;
+	cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<lm_c2<<endl;
+	cout<<"Cantidad total en dinero de las monedas de $0.10: "<<lm_a2<<endl;
+	cout<<"Cantidad total de monedas de $0.25 ingresadas: "<<lm_c1<<endl;
+	cout<<"Cantidad total en dinero de las monedas de $0.25: "<<lm_a1<<endl;
 	cout<<"//================================================"<<endl;
-	cout<<"//==> Nombre del programa: Comparacion de 2 n鷐eros"<<endl;
+	cout<<"//==> Nombre del programa: Comparacion de 2 n煤meros"<<endl;
 	cout<<"//==> Archivo : Compara.cpp"<<endl;
 	cout<<"//==>Autor: Luis Montezuma"<<endl;
-	cout<<"//==>Fecha de elaboraci髇: 2022-01-10"<<endl;
-	cout<<"//==>Fecha ultima actualizaci髇: 2022-05-15"<<endl;
+	cout<<"//==>Fecha de elaboraci贸n: 2022-01-10"<<endl;
+	cout<<"//==>Fecha ultima actualizaci贸n: 2022-05-15"<<endl;
 	cout<<"//================================================="<<endl;
 	
 return 0;
